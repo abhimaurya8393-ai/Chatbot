@@ -7,7 +7,7 @@ let imageinput = document.querySelector("#image input");
 
 
 const Api_Url = "https://openrouter.ai/api/v1/chat/completions";
-const API_KEY = "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"; 
+const API_KEY = "sk-or-v1-84ae234b5d937c4a388e97470764163d65fcf24fbda92d0"; 
 
 let user = {
     message: null,
@@ -147,4 +147,5 @@ imageinput.addEventListener("change", () => {
 
 imagebtn.addEventListener("click", () => {
     imageinput.click();
+
 });
